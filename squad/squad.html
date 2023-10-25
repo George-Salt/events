@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <link type="image/png" rel="icon" href="../static/imgs/favicon.png">
+
+  <link href="../static/css/header.css" rel="stylesheet">
+  <link href="../static/css/main.css" rel="stylesheet">
+  <link href="../static/css/footer.css" rel="stylesheet">
+
+  <title>George Salt > События</title>
+</head>
+
+<body>
+  <header>
+    <div class="content">
+      <div class="fullname">
+        <a href="https://george-salt.github.io/home/" class="site-name">George Salt</a>
+        <p class="paragraph-name">Squad</p>
+      </div>
+
+      <div class="links">
+        <a href="https://george-salt.github.io/blog/" class="blog">Блог</a>
+        <a href="" class="portfolio">Портфолио</a>
+        <a href="" class="games">Приложения</a>
+      </div>
+
+      <div class="buttons">
+        <a href="https://t.me/george20097" class="telegram">
+          <div class="logo"></div>
+        </a>
+        <a href="https://wa.me/89898303624" class="whatsapp">
+          <div class="logo"></div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="now">
+      <div class="content">
+        <h1 class="lined-topic">Текущая карта эволюции</h1>
+        <img class="map-now" src="../static/imgs/squad/start.png">
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="content">
+        <div class="news-column">
+          <div class="filter">
+            <h1 class="all active" onclick="changeToAll()">Все</h1>
+            <h1 class="wars inactive" onclick="changeToWars()">Сражения</h1>
+          </div>
+
+          <div class="all-news">
+            <div class="new">
+              <img src="../static/imgs/evolution.png">
+              <div class="texts">
+                <a href="start.html" class="topic">Начало</a>
+                <p class="langs">⋯ㅤ1-ый год</p>
+                <p class="time">≡ ㅤМеноляне</p>
+              </div>
+            </div>
+
+            <div class="new">
+              <img src="../static/imgs/evolution.png">
+              <div class="texts">
+                <a href="prehistory.html" class="topic">Предыстория</a>
+                <p class="langs">⋯ㅤНачало</p>
+                <p class="time">≡ ㅤДревние существа</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wars-news">
+            <div class="new">
+              <div class="texts">
+                <a class="topic">Пока сражений не было</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="content">
+      <p class="name">George Salt</p>
+      <p class="year">2021 - 2023</p>
+    </div>
+  </footer>
+
+  <script src="../static/js/filter.js"></script>
+</body>
+
+</html>
